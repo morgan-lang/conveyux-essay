@@ -26,21 +26,12 @@ h1 {
 }
 
 h2 {
-  background-color: dodgerblue;
+  background-color: skyblue;
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.5rem;
   color: white;
-  padding: 3rem 1rem 3rem 1rem;
-}
-
-h3 {
-  background-color: skyblue;
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 2rem;
-  padding: 1.5rem 1rem 1.5rem 1rem;
-  color: white;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 code {
@@ -60,19 +51,19 @@ p {
 header {
   width:100%;
   background-color:dodgerblue;
+  padding:1rem;
   clear:both;
   float:left;
   position: fixed;
 }
 
 article {
-  width:60%;
+  width:50%;
   background-color:#FFFFFF;
   padding:1rem;
   clear:both;
   float:left;
-  margin-top: 8rem;
-  margin-bottom: .5rem;
+  margin: 8rem 0 0 2rem;
 }
 
 /*Nav and lists*/
