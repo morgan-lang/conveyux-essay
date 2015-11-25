@@ -1,11 +1,11 @@
 /*Setting the root font and scaling 1em to equal 10px.*/
 
 html { 
-  font-family: helvetica,arial,sans-serif;
-  font-size: 62.5%; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 } 
 
-/*Major components*/
+body { margin-top: 0;}
 
 select {
   font-size: 2rem;
@@ -17,41 +17,47 @@ select {
 }
 
 h1 {
-  background-color: dodgerblue;
-  font-size: 3rem;
+  background-color: skyblue;
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 2.5rem;
+  line-height: 2.1rem;
   color: white;
-  padding: .5rem .5rem .5rem 1rem;
+   padding: 0 0 0 1rem;
+  margin-left: 2rem;
+}
+
+.subheadline {
+  background-color: skyblue;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  color: white;
+  margin-left: 2rem;
+  
 }
 
 h2 {
   background-color: skyblue;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  line-height: 2.5rem;
+  line-height: 1.4rem;
   color: white;
   padding: 1rem 1rem 1rem 1rem;
 }
 
-code {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 2.1rem;
-  color: #333333;
-}
+
 
 p {
-  font-size: 1.5rem;
+  font-family: 'Droid Serif', serif;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6rem;
+  line-height: 1.2rem;
   color: #333333;
 }
 
 header {
   width:100%;
-  background-color:dodgerblue;
-  padding:1rem;
+  background-color:skyblue;
   clear:both;
   float:left;
   position: fixed;
@@ -63,7 +69,7 @@ article {
   padding:1rem;
   clear:both;
   float:left;
-  margin: 8rem 0 0 2rem;
+  margin: 9rem 0 0 2rem;
 }
 
 /*Nav and lists*/
@@ -88,9 +94,7 @@ li {
 
 footer {
   width:100%;
-  background-color:dodgerblue;
-  border:.1rem solid #333333;
-  box-shadow: 0rem 0rem .1rem .1rem #333333;
+  background-color:skyblue;
   padding:1rem;
   float:left;
   margin-top: .5rem;
@@ -115,7 +119,9 @@ a:hover {
   font-weight: 600;
 }
 
-img { 
+img {
+  width: 100px;
+  resize:both;
   border:.1rem solid #333333;
   box-shadow:0rem 0rem .1rem .1rem #333333;
 }
