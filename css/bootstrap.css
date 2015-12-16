@@ -85,6 +85,7 @@ sub {
 }
 img {
   border: 0;
+  margin: 1rem;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -227,6 +228,7 @@ th {
   }
   img {
     max-width: 100% !important;
+    margin: 1rem;
   }
   p,
   h2,
@@ -1124,6 +1126,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: .5rem 0 .5rem 0;
 }
 .img-rounded {
   border-radius: 6px;
